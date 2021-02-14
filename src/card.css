@@ -1,0 +1,25 @@
+.produtCard {
+    background-color: #fff;    
+    height: 390px;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.produtCard h5 {
+    font-size: 12pt;
+}
+
+.produtCard p {
+    font-size: 10pt;
+}
+
+.produtCard .buttons {       
+    display: flex; 
+    justify-content: space-between;
+}
+
+.produtCard .image {       
+    width: 249px;
+}

@@ -1,0 +1,37 @@
+.Main {
+    display: flex;
+    flex-basis: 250px;    
+    background: linear-gradient(to top, #1c292e, #1c292e);
+    
+    z-index: 1;
+    -webkit-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+    box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+}
+
+.Main nav {
+    flex-grow: 1;
+}
+
+.Main ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Main li {
+    display: flex;
+}
+
+.Main li a {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.Main li a:hover {
+    background: #00000020;
+}
